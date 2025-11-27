@@ -1,0 +1,10 @@
+# Ignore ALL node_modules folders everywhere
+**/node_modules/
+
+# Ignore ALL environment files everywhere
+.env
+*.env
+.env.*
+.env*.local
+
+.DS_Store
