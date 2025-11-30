@@ -17,11 +17,11 @@ app.use(cors({
 app.use("/api/inngest" , serve({client:inngest, functions}))
 
 
-app.get("/" , (req,res) => {
-    res.json({
-        message : "hello world"
-    })
-})
+// app.get("/" , (req,res) => {
+//     res.json({
+//         message : "hello world"
+//     })
+// })
 
 app.get("/books" , (req,res) => {
     res.status(201).json({
